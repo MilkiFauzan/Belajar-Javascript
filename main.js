@@ -66,6 +66,24 @@ console.table(person);
 const nilaiUjian = 90;
 if (nilaiUjian > 85) {
  greeting = "Good Job";
+} else if (nilaiUjian > 70) {
+    greeting = "Not Bad";
 } else {
     greeting = "Try Again";
+} 
+
+//Alert
+alert("Selamat Belajar Javascript");
+
+//Prompt Popup
+const name = prompt("Siapa Nama Anda");
+alert(`Hello ${fullName}`);
+
+//Confirm Popup
+const login = confirm("Apakah Anda Sudah Berusia 20 Tahun?");
+if (login) {
+    const name = prompt("Siapa Nama Anda?");
+    alert(`Selamat Datang ${name}`);
+} else {
+    alert("Bye-Bye");
 }
