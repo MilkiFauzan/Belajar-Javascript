@@ -87,3 +87,42 @@ if (login) {
 } else {
     alert("Bye-Bye");
 }
+
+//Switch Expression
+const nilai = "A";
+switch (nilai) {
+    case "A":
+        greeting = "Wow Anda Lulus Dengan Sempurna";
+        break;
+    case "B":
+    case "C":
+        greeting = "Anda Lulus";
+        break;
+    case "D":
+      greeting = "Anda Tidak Lulus";
+        break;
+    default:
+   greeting = "Anda Salah Jurusan"; 
+}
+
+//Function
+test();
+function test () {
+    console.log('it works!');
+};
+
+//typeOf
+  let data = "makan";
+  const typeData = typeof data;
+  console.log(typeData)
+
+//Operator In
+const panggilan = {
+    firstName : "Milki",
+    lastName : "Fauzan"
+};
+if ("firstName" in panggilan) {
+    alert(`Hello ${panggilan.firstName}`);
+} else {
+    alert("Hello");
+}
